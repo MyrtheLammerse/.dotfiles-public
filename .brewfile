@@ -1,0 +1,40 @@
+# Taps
+tap "homebrew/bundle"
+tap "buo/cask-upgrade" # interactive Cask upgrading
+
+# Binaries
+brew "bash"
+brew "brew-cask-completion"
+brew "kubernetes-cli"
+brew "python"
+brew "pyenv"
+brew "pyenv-virtualenv"
+brew "virtualenv"
+
+# zsh plugings
+brew "zsh"
+brew "zsh-autosuggestions"
+brew "zsh-completions"
+brew "zsh-history-substring-search"
+brew "zsh-syntax-highlighting"
+brew "zsh-you-should-use"
+
+# Drivers
+cask "logitech-options" # Logitech MX Master 4
+
+# Apps
+cask "calibre"
+cask "dbeaver-community"
+cask "docker"
+cask "ghostty"
+cask "google-chrome"
+cask "google-drive"
+cask "microsoft-office"
+cask "microsoft-teams"
+cask "pycharm"
+cask "raycast"
+cask "spotify"
+cask "whatsapp"
+
+## Security
+cask "private-internet-access"
